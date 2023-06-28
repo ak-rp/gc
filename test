@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Data
+years = [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]
+income = [2, 4, 6, 8, 234234, 12, 14, 16, 18, 500, 22, 24, 26, 28, 4343, 32, 34, 36, 38, 40]
+
+# Create the graph
+plt.plot(years, income)
+
+# Customize the graph
+plt.xlabel('Year')
+plt.ylabel('Income')
+plt.title('Income over the years')
+
+# Display the graph
+plt.show()
